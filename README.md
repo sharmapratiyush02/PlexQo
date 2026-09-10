@@ -1,32 +1,37 @@
-# PlexQo RUN
+# 🏃 PlexQo RUN
 
-A lightweight GPS running tracker built with React Native (Expo) for the PlexQo hiring assignment.
-
----
-
-## Features
-
-- **Start a run** with a single tap
-- **Live GPS tracking** — distance, duration, and average pace update in real time
-- **Pause & Resume** — timer and distance freeze during pauses
-- **Finish run** with a confirmation prompt to avoid accidental stops
-- **Run Summary** — total distance, duration, avg pace, and a route map
-- **Last Run Card** — home screen shows your most recent run stats
-- **Edge case handling** — GPS permission denied, signal loss, zero-distance runs
+> A lightweight GPS running tracker built with **React Native (Expo)** for the PlexQo hiring assignment.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Layer | Choice |
-|---|---|
-| Framework | React Native via Expo SDK 51 |
-| Language | TypeScript |
-| Navigation | expo-router (file-based) |
-| Location | expo-location |
-| Maps | react-native-maps |
-| Storage | @react-native-async-storage/async-storage |
-| State | React Context + useReducer |
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![AsyncStorage](https://img.shields.io/badge/AsyncStorage-FF6B6B?style=for-the-badge&logo=react&logoColor=white)
+![React Context](https://img.shields.io/badge/React_Context-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![expo--router](https://img.shields.io/badge/Expo_Router-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![GPS](https://img.shields.io/badge/GPS_Tracking-00C853?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+
+---
+
+## ✨ Features
+
+- 🚀 **Start a run** with a single tap
+- 📍 **Live GPS tracking** — distance, duration, and average pace update in real time
+- ⏸️ **Pause & Resume** — timer and distance freeze during pauses
+- 🏁 **Finish run** with a confirmation prompt to avoid accidental stops
+- 📊 **Run Summary** — total distance, duration, avg pace, and a route map
+- 🗂️ **Last Run Card** — home screen shows your most recent run stats
+- ⚠️ **Edge case handling** — GPS permission denied, signal loss, zero-distance runs
+
+---
 
 ---
 
